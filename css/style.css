@@ -4,7 +4,7 @@
   background: #2f3640;
 }
 
-h1 {
+.navigation h1 {
   font: "Galada", cursive;
   color: #fbc531;
   font-size: 30px;
@@ -25,5 +25,10 @@ h1 {
 
 .nav ul li {
   padding: 10px;
+}
+
+/*intro*/
+.intro {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
