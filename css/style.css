@@ -1,0 +1,14 @@
+/*global*/
+/*navigation*/
+h1 {
+  color: red;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
