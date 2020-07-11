@@ -1,12 +1,26 @@
 /*global*/
 
+$font-deco: 'Galada', cursive;
 
 /*navigation*/
+
+.navigation {
+	background: #2f3640;
+}
 h1 {
-	color: red;
+	font: $font-deco;
+	color: #fbc531;
+	font-size: 30px;
+	align-self: flex-start;
 }
 .nav ul { 
 	list-style-type: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
+	color: #fff;
+	background: #2f3640;
+	font-size: 12px;
+}
+.nav ul li {
+	padding: 10px;
 }
