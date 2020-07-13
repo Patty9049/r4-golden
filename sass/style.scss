@@ -98,3 +98,35 @@ body {
 	border-radius: 50%;
 
 }
+
+/*portfolio*/
+
+.portfolio {
+	font-size: 9px;
+	padding: 40px;
+	text-align: center;
+}
+
+.portfolio {
+	background: #f5f6fa;
+}
+.portfolio .row img {
+ 	height: 50%;
+        width: 100%;
+        object-fit: cover;
+	
+}
+/*footer*/
+.footer ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between; 
+}
+.footer .fab {
+	color: #fff;
+	padding: 10px;
+	border: solid;
+	border-radius: 50%;
+	background: black;
+}
+
