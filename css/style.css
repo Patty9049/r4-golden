@@ -1,34 +1,110 @@
 /*global*/
-/*navigation*/
-.navigation {
-  background: #2f3640;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
-.navigation h1 {
-  font: "Galada", cursive;
-  color: #fbc531;
-  font-size: 30px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+.row {
+  margin: 40px 0;
 }
 
-.nav ul {
+/*intro*/
+.intro {
+  background-image: url("https://imgur.com/S6Vv4qG");
+}
+
+.intro img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro .golden {
+  font-family: "Galada", cursive;
+  font-weight: 200;
+}
+
+.navbar ul {
   list-style-type: none;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
       justify-content: flex-end;
   color: #fff;
-  background: #2f3640;
   font-size: 12px;
 }
 
-.nav ul li {
+.navbar ul li {
   padding: 10px;
 }
 
-/*intro*/
-.intro {
+.intro .middle {
   color: #fff;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.intro .navbar {
+  top: 7%;
+}
+
+.intro .navbar h1 {
+  color: #fbc531;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.middle .group h1 {
+  font-size: 22px;
+}
+
+.middle .group h2 {
+  font-size: 60px;
+}
+
+.middle a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  background-color: #fbc531;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/*services*/
+.services .container {
+  text-align: center;
+  padding: 25px;
+}
+
+.services h1 {
+  size: 17px;
+  font-weight: 900;
+}
+
+.services h2 {
+  font-size: 12px;
+  color: #7f8fa6;
+  font-weight: 100;
+}
+
+.services .col-4 {
+  font-size: 13px;
+}
+
+.services .col-4 p {
+  color: #7f8fa6;
+}
+
+.services .row .fas {
+  font-size: 25px;
+  padding: 15px;
+  color: #fbc531;
+  border: 2px solid #fbc531;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
