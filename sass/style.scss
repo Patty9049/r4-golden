@@ -7,10 +7,10 @@ $color-lightgrey: #7f8fa6;
 
 body {
 	font-family: $font-family-n;
-	font-size: 20px;
+	font-size: 22px;
 }
 .row {
-	margin: 40px 0;
+	margin: 50px 0;
 }
 
 /*intro*/
@@ -19,20 +19,22 @@ body {
         background-image: url('https://imgur.com/S6Vv4qG')
 }
 .intro img {
-        height: 100%;
+        height: 700px;
         width: 100%;
         object-fit: cover;
 }
 .intro .golden {
 	font-family: $font-family-g;
-	font-weight: 200;
+	font-weight: 1;
+	font-size: 45px;
 }
 .navbar ul { 
 	list-style-type: none;
 	display: flex;
 	justify-content: flex-end;
 	color: #fff;
-	font-size: 12px;
+	font-size: 15px;
+	font-weight: 700;
 }
 .navbar ul li {
 	padding: 10px;
@@ -41,7 +43,7 @@ body {
 	color: #fff;
 	position: absolute;
     	width: 100%;
-    	top: 25%;
+    	top: 30%;
     	left: 50%;
     	transform: translate(-50%,-50%);	
 	text-align: center;
@@ -54,18 +56,15 @@ body {
 	text-align: left;
 	padding: 0 10px;
 }
-.middle .group h1 {
-	font-size:22px;
-}
-.middle .group h2 {
-	font-size: 60px;
+.intro .maint {
+	font-size: 80px;
 }
 .middle a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 15px;
+	font-size: 22px;
 	background-color: $color-gold;
-	padding: 12px;
+	padding: 17px 25px;
 	border-radius: 5px;
 }
  
@@ -75,34 +74,39 @@ body {
 	text-align: center;
 	padding: 25px;
 }
-.services h1 {
-	size: 17px;
-	font-weight: 900;
+.services .serv-h1 {
+	font-weight: 1200;
+	font-size: 45px;
 }
 .services h2 {
-	font-size: 12px;
+	font-size: 18px;
 	color: $color-lightgrey;
 	font-weight: 100;
 }
-.services .col-4 {
-	font-size: 13px;
-}
 .services .col-4 p {
 	color: $color-lightgrey;
+	font-size: 18px;
 }
 .services .row .fas {
-	font-size: 25px;
-	padding: 15px;
+	font-size: 30px;
+	padding: 20px;
 	color: $color-gold;
 	border: 2px solid $color-gold;
 	border-radius: 50%;
-
 }
 
 /*portfolio*/
 
+.portfolio .op-h1 {
+	font-weight: 1200;
+	font-size: 45px;
+}
+.portfolio h2 {
+	font-size: 18px;
+        color: $color-lightgrey;
+        font-weight: 100;
+}
 .portfolio {
-	font-size: 9px;
 	padding: 40px;
 	text-align: center;
 }
@@ -115,12 +119,29 @@ body {
         width: 100%;
         object-fit: cover;
 	
+} 
+.portfolio .col-4 h1 {
+	color: black;
+	background: #fff;
+	padding: 10px;
+	margin: 0;
+	font-size: 22px;
 }
+.portfolio .col-4 h2 {
+        background: #fff;
+        padding: 10px;
+        margin: 0;
+}
+
 /*footer*/
 .footer ul{
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between; 
+}
+.footer li {
+	display: flex;
+	padding: 0 20px;
 }
 .footer .fab {
 	color: #fff;
@@ -129,4 +150,6 @@ body {
 	border-radius: 50%;
 	background: black;
 }
-
+.footer .row .col {
+	text-align: center;
+}
