@@ -153,3 +153,25 @@ body {
 .footer .row .col {
 	text-align: center;
 }
+/*intro*/
+@media (max-width: 1023px) {
+	.container {
+		.margin: ;
+	}
+} 
+@media  (max-width: 599px) {
+	.intro .main {
+		display: none;
+	}
+	.intro .col-8 {
+		display: none;
+	}
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+	.col-4 {
+		max-width: 100%
+	}
+}
+

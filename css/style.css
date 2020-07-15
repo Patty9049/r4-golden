@@ -170,4 +170,11 @@ body {
 .footer .row .col {
   text-align: center;
 }
+
+/*intro*/
+@media (max-width: 767p) {
+  .intro .col-8 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
