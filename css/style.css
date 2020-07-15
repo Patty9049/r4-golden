@@ -172,9 +172,21 @@ body {
 }
 
 /*intro*/
-@media (max-width: 767p) {
+@media (max-width: 599px) {
+  .intro .main {
+    display: none;
+  }
   .intro .col-8 {
     display: none;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .col-4 {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
